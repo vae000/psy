@@ -24,7 +24,7 @@ export default memo(() => {
       <div className={Style.loginContainer}>
         <div className={Style.titleContainer}>
           <h1 className={Style.title}>登录到</h1>
-          <h1 className={Style.title}>TDesign Starter</h1>
+          <h1 className={Style.title}>维普智图</h1>
           <div className={Style.subTitle}>
             <p className={classNames(Style.tip, Style.registerTip)}>
               {type === 'register' ? '已有账号?' : '没有账号吗?'}
@@ -36,7 +36,7 @@ export default memo(() => {
         </div>
         {type === 'login' ? <Login /> : <Register />}
       </div>
-      <footer className={Style.copyright}>Copyright @ 2021-2022 Tencent. All Rights Reserved</footer>
+      <footer className={Style.copyright}>Copyright @ 2021-2024 VipSmart. All Rights Reserved</footer>
     </div>
   );
 });

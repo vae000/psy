@@ -57,10 +57,8 @@ export default (params) => {
       host: '0.0.0.0',
       port: 3003,
       proxy: {
-        '/api': {
-          // 用于开发环境下的转发请求
-          // 更多请参考：https://vitejs.dev/config/#server-proxy
-          target: 'https://service-exndqyuk-1257786608.gz.apigw.tencentcs.com',
+        '/acadmgr': {
+          target: 'http://api.vipslib.com',
           changeOrigin: true,
         },
       },

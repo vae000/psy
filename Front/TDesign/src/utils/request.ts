@@ -8,7 +8,7 @@ const SUCCESS_CODE = 0;
 const TIMEOUT = 5000;
 
 export const instance = axios.create({
-  baseURL: API_HOST,
+  // baseURL: 'api',
   timeout: TIMEOUT,
   withCredentials: true,
 });
