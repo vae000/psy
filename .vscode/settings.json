@@ -1,3 +1,6 @@
 {
-    "dotnetAcquisitionExtension.proxyUrl": "http://192.168.21.84:8800"
+    "dotnetAcquisitionExtension.proxyUrl": "http://192.168.21.84:8800",
+    "gitlens.proxy": {
+        
+    }
 }
